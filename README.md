@@ -2,10 +2,12 @@
 
 Practice using a screen reader and find your way around the page.
 
-There are also a number of poorly developed parts of the website to demonstrate how poor the experience for a screen reader user can be.
+## Challenges
 
-Use your chosen screen reader either in 'blind mode' or in normal sighted mode to see if you can complete all the challenges (and mark any that you think are not possible due to a poorly developed component).
+The challenges will not be read out using a screen reader by default as this website is only focussed on helping people unfamiliar with a screen reader to use one for testing.
+
+Use your chosen screen reader either in 'blind mode' or in normal 'sighted mode' to see if you can complete all the challenges.
 
 ## Blind mode
 
-Blind mode will only show you focussable elements on the page.
+Blind mode will replace the visible area of the website with a VoiceOver help screen, meaning you can get help using VoiceOver whilst also obscuring the screen to stop you cheating!
