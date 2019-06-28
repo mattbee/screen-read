@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 5px solid #c00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  max-width: 200px;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.header__contact {
+  font-size: 1.2em;
+  text-align: right;
+  p {
+    margin: 0.5em 0;
+  }
+}
