@@ -8,7 +8,13 @@ body {
   margin: 0;
   padding: 0;
   border-top: 38px solid lightgrey;
-  line-height: 1.4em; }
+  line-height: 1.4; }
+
+ol {
+  padding-left: 1.2em; }
+
+h1 {
+  line-height: 1.2; }
 
 img {
   max-width: 100%; }
@@ -113,6 +119,8 @@ ol li {
   border: 1px solid grey;
   margin-bottom: 1em;
   background: #f6f6f6; }
+  .list__item h4 {
+    margin-top: 0; }
 
 .header {
   border-bottom: 5px solid #c00;
