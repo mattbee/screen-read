@@ -1,7 +1,11 @@
 $baseColor: #fff;
 $textColor: #300;
 $loudColor: #009;
-$altColor: #378654;
+$altColor: #de00a5;
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: $baseColor;
@@ -10,10 +14,16 @@ body {
   margin: 0;
   padding: 0;
   border-top: 38px solid lightgrey;
+  line-height: 1.4em;
 }
 
 img {
   max-width: 100%;
+}
+
+h5 {
+  font-size: 1.2em;
+  margin-top: 0;
 }
 
 .btn {
@@ -87,4 +97,43 @@ img {
   display: block;
   background: #f0f0f0;
   color: #333;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-content {
+  width: 70%;
+}
+
+aside.sidebar {
+  width: 26%;
+}
+
+.sidebar__item {
+  padding: 20px;
+  border: 1px solid grey;
+  background: #f6f6f6;
+  margin-bottom: 30px;
+}
+
+ol li {
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0 0 2em;
+  list-style-type: none;
+}
+
+.list__item {
+  padding: 15px;
+  border: 1px solid grey;
+  margin-bottom: 1em;
+  background: #f6f6f6;
 }

@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 2em;
+}
+.cards__card {
+  width: 31%;
+  padding: 0.5em;
+  border: 1px solid grey;
+}
+
+.cards__card h3 {
+  margin-top: 0.2em;
+  min-height: 2.3em;
+}
+
+.cards__card a {
+  color: $altColor;
+  font-weight: bold;
+}
