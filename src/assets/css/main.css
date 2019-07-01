@@ -47,6 +47,30 @@ body {
   height: calc(100vh - 2em);
   overflow: auto; }
 
+.skip-link {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute; }
+
+.skip-link:focus {
+  clip: auto;
+  clip-path: none;
+  -webkit-clip-path: none;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 1px;
+  position: static;
+  display: block;
+  background: #f0f0f0;
+  color: #333; }
+
 .header {
   border-bottom: 5px solid #c00;
   display: flex;

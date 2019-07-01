@@ -2,6 +2,8 @@
 layout: base.liquid
 ---
 
+<a href="#maincontent" id="skiplink" class="skip-link">Skip to main content</a>
+
 <header class="header container">
   <a href="/" class="header__logo"><img src="/assets/images/screen-read-logo.png" alt="Screen Read logo - link to home page" /></a>
   <div class="header__contact">
@@ -18,7 +20,7 @@ layout: base.liquid
   </ul>
 </nav>
 
-<main>
+<main id="maincontent" tabindex="0">
   <div class="container">
 
     {{ content }}
