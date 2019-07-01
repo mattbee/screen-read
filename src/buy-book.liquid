@@ -1,0 +1,51 @@
+---
+title: 'Buying Accessi-bee-lity the book'
+layout: sitechrome.liquid
+---
+
+<h1>Checkout</h1>
+
+<h2>Your basket</h2>
+
+<div>
+  <h3>Accessi-bee-lity</h3>
+  <img src="/assets/images/book.jpg" alt="A picture of the blank pages of a book." />
+  <p>A made up book that doesn't exist</p>
+  <p>Price: £123.45</p>
+</div>
+
+<form action="/thank-you">
+  <fieldset>
+    <legend>Your details</legend>
+    <div class="form-row">
+      <label for="name">Your name</label>
+      <input type="text" id="name" required placeholder="e.g. Eric Wimp" />
+    </div>
+    <div class="form-row">
+      <label for="address">Address line 1</label>
+      <input type="text" id="address" required placeholder="e.g. 29 Acacia Road" />
+    </div>
+    <div class="form-row">
+      <label for="town">Town</label>
+      <input type="text" id="town" required placeholder="e.g. Nuttytown" />
+    </div>
+    <div class="form-row">
+      <label for="postcode">Postcode</label>
+      <input type="text" id="postcode" pattern="[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? [0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}" required placeholder="e.g. NW1 8NP" />
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Your payment details</legend>
+    <div class="form-row">
+      <label for="town">Made up credit card number</label>
+      <input type="text" pattern="1234987644226655" oninvalid="this.setCustomValidity('Use the card number provided')" oninput="this.setCustomValidity('')" id="town" required placeholder="e.g. 4242 4242 4242 4242" />
+    </div>
+    <div class="form-row">
+      <label for="town">CVV</label>
+      <input type="text" pattern="[0-9]+" maxlength="4" id="cvv" required placeholder="e.g. 123" />
+    </div>
+  </fieldset>
+  <div class="form-row">
+    <input type="submit" value="Checkout" class="btn" />
+  </div>
+</form>

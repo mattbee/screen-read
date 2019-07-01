@@ -1,0 +1,16 @@
+.form-row {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px;
+  width: 280px;
+}

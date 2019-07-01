@@ -94,7 +94,7 @@ img {
     margin: 0.5em 0; }
 
 .nav {
-  background: green; }
+  background: slategrey; }
   .nav a {
     color: #fff;
     padding: 15px; }
@@ -116,3 +116,17 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.form-row {
+  margin-bottom: 1em; }
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold; }
+
+input[type=text] {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px;
+  width: 280px; }
