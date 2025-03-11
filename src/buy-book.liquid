@@ -38,7 +38,7 @@ layout: sitechrome.liquid
     <legend>Your payment details</legend>
     <div class="form-row">
       <label for="ccnumber">Made up credit card number</label>
-      <input type="text" pattern="1234987644226655" oninvalid="this.setCustomValidity('Use the card number provided')" oninput="this.setCustomValidity('')" id="ccnumber" required placeholder="e.g. 4242 4242 4242 4242" />
+      <input type="text" pattern="(1234987644226655|1234 9876 4422 6655)" oninvalid="this.setCustomValidity('Use the card number provided')" oninput="this.setCustomValidity('')" id="ccnumber" required placeholder="e.g. 4242 4242 4242 4242" />
     </div>
     <div class="form-row">
       <label for="cvv">CVV</label>
